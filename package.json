@@ -1,13 +1,9 @@
 {
   "name": "mothebroker-static",
   "version": "1.0.0",
-  "description": "Static recreation of mothebroker.com website",
-  "main": "index.html",
-  "scripts": {
-    "build": "echo 'No build required - static site' && exit 0",
-    "start": "echo 'Static site ready'",
-    "dev": "npx serve -s ."
-  },
+  "description": "Static HTML website for Lake Forest Mortgage Rates",
+  "private": true,
+  "scripts": {},
   "keywords": [
     "mortgage",
     "lake-forest",
@@ -15,7 +11,5 @@
     "html"
   ],
   "author": "Mo Abdel",
-  "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {}
+  "license": "ISC"
 }
